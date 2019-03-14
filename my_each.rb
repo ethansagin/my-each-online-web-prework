@@ -7,4 +7,4 @@ def my_each(array)
   array
 end
 
-my_each(array[i]) {|word| puts word}
+my_each(array) {|word| puts word}
