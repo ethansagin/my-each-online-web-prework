@@ -6,6 +6,8 @@ def my_each(array)
   end
 end
 
-my_each do
-  |word|
+my_each(array) do |word|
+  puts word
+  word
+end
   
