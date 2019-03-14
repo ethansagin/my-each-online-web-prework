@@ -7,7 +7,5 @@ def my_each(array)
   array
 end
 
-my_each(array[i]) do |word|
-  puts word
-end
+my_each(array[i]) {|word| puts word}
   
