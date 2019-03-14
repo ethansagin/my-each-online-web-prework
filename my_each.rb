@@ -8,4 +8,3 @@ def my_each(array)
 end
 
 my_each(array[i]) {|word| puts word}
-  
