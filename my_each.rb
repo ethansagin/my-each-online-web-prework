@@ -7,7 +7,7 @@ def my_each(array)
   array
 end
 
-my_each(array) do |word|
+my_each(array[i]) do |word|
   puts word
 end
   
